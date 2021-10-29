@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-login</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="facebook-login.html"> facebook </a>
+            </div>
+            <div class="login">
+                <form>
+                
+                    <table class="login-spec">
+                        <tr>
+                            <td><label>Email/Phone</label></td>
+                            <td><label>Password</label></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><input type="submit" value="Login" class="login-button"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><a href="Forgotten.html"   style="color:#9cb4db; text-decoration:none;">Forgotten account?</a> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="main-body">
+
+            <div class="left-section">
+
+                <p class="body-lefttext">Facebook helps you connect and share with the <br> people in your life.</p>
+                <img src="FBusers.png" alt="" class="img">
+
+            </div>
+
+            <div class="right-section">
+
+                <p style=" color:#43454a; font-family:Arial, Helvetica, sans-serif ;font-weight: bold;font-size: 32px;">Create an account </p>
+                <p style="margin-top: -21px; font-size: 20px;color: #43454a; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">It's quick and easy.</p>
+
+                <form class="form" id="signup-form">
+
+                    <input name="fname" type="text" placeholder="First Name" style="height: 24px; width: 200px;border-radius: 5px;font-size: 15px;border-color:white;">
+                    <input name="lname" type="text" placeholder="Last Name" style="height: 24px; width: 200px;border-radius: 5px;font-size: 15px;border-color:white;margin-left: 20px;">
+                    <br>
+                    <br>
+                    <input name="mail" type="text" placeholder="Mobile number or Email Address" style="height: 24px; width: 433px;border-radius: 5px;font-size: 15px;border-color:white;">
+                    <br>
+                    <br>
+                    <input name="pswd" type="password" placeholder="New Password" style="height: 24px; width: 433px;border-radius: 5px;font-size: 15px;border-color:white;">
+                    <p> <h4 style="font-weight: bolder;color: #43454a; margin-top: -3px;margin-bottom: -8px;">Date of Birth</h4> </p>
+                    <select name="day" id="" >
+                        <option value="">Day</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">13</option>
+                        <option value="">14</option>
+                        <option value="">15</option>
+                        <option value="">16</option>
+                        <option value="">17</option>
+                        <option value="">18</option>
+                        <option value="">19</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                        <option value="">24</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                        <option value="">29</option>
+                        <option value="">30</option>
+                        <option value="">31</option>
+                    </select>
+                    <select name="month" id="">
+                        <option value="">Month</option>
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">Mar</option>
+                        <option value="">Apr</option>
+                        <option value="">May</option>
+                        <option value="">Jun</option>
+                        <option value="">Jly</option>
+                        <option value="">Aug</option>
+                        <option value="">Sep</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option>
+                    </select>
+                    <input name="year" type="text" placeholder="Year">
+                    <a id="birthday-help" href="#" title="Click for more information" role="button"><button>?</button></a>
+                    <br>
+                    <p> <h4 style="font-weight: bolder;color: #43454a; margin-top: -3px;margin-bottom: -8px;">Gender</h4> </p>
+                    <input type="radio" id="female" name="gender" value="female">    
+                    <label for="html">Female</label>
+                    <input type="radio" id="male" name="gender" value="male">    
+                    <label for="html">Male</label>
+                    <input type="radio" id="custom" name="gender" value="custom">    
+                    <label for="html">Custom</label>
+                    <a id="gender-help" href="#" title="Click for more information" role="button"><button>?</button></a>
+                    <br>
+                    <p style="text-align: left;"> <h6> By clicking Sign Up, you agree to our <a href="">Terms, Data Policy</a> <br> and <a href="">Cookie Policy.</a>You my recieve SMS notifications from  <br>us and can opt out at any time. </h6></p>
+                    <input type="submit" value="Create an account" style="background-color:green; border-color:white; color:white; height:40px; width: 230px; border-radius:5px; font-size:15px;">
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+
+</html>
